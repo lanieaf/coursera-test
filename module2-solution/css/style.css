@@ -1,1 +1,125 @@
 
+    /***** MAIN STYLE *****/
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: #ffffff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+
+    h1 {
+        margin: 50px;
+        text-align: center;
+       
+    }
+
+    section {
+        position: relative;
+        padding: 15px;
+        width: 100%;
+    }
+
+    p {
+        position: relative;
+        clear: right;
+    }
+
+    div {
+        position: relative;
+        background-color: #999999;
+        border: 2px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .chicken {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 1.25em;
+        background-color: #d59898;
+
+    }
+
+    .beef {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 1.25em;
+        background-color: #c14543;
+
+    }
+
+    .sushi {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: 0px;
+        border: 2px solid black;
+        text-align: center;
+        font-size: 1.25em;
+        background-color: #e5d198;
+
+    }
+
+    .content {
+        padding: 10px;
+        border: none;
+        background-color: #999999;
+        font-family: Helvetica;
+        color: black;
+        margin: 0px;
+        overflow: auto;
+    }
+
+    .row {
+        width: 90%;
+    }
+
+
+      /***** LARGE *****/
+    @media (min-width: 992px) {
+        .column-lg-4 {
+            float: left;
+            width: 33.33%;
+        }
+    }
+
+
+      /***** MEDIUM *****/
+    @media (min-width: 768px) and (max-width: 991px) {
+        .colmn-md-6 {
+            float: left;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .colmn-md-12 {
+            float: left;
+            width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+
+
+      /***** SMALL *****/
+    @media (max-width: 767px) {
+        .colmn-sm-12 {
+            float: left;
+            width: 100%;
+        }
+    }
+
